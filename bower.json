@@ -1,0 +1,31 @@
+{
+  "name": "itsib-angular-seed",
+  "version": "0.0.1",
+  "authors": [
+    "Sergey <itsib.su@gmail.com> (http://itsib.su/)"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "angular": "~1.4.0",
+    "angular-route": "~1.4.0",
+    "angular-loader": "~1.4.0",
+    "angular-mocks": "~1.4.0",
+    "html5-boilerplate": "~5.2.0"
+  },
+  "devDependencies": {
+
+  },
+  "resolutions": {
+    "angular": "1.5.1"
+  }
+}

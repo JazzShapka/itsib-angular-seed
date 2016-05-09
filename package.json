@@ -22,7 +22,10 @@
     "bower_components"
   ],
   "devDependencies": {
-    "spa-server": "^0.1.0"
+    "spa-server": "^0.1.0",
+
+    "gulp": "^3.9.0",
+    "gulp-livereload": "^3.8.1"
   },
   "dependencies": {
     "spa-server": "^0.1.0"
@@ -30,6 +33,7 @@
   "scripts": {
     "prestart": "npm install && bower install",
     "start": "node server"
+
 
   }
 }

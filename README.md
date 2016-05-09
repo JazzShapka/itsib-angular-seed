@@ -1,1 +1,1 @@
-# itsib-angular-seed
+# itsib-angular-seed - Служит для быстрой развёртки SPA приложения.

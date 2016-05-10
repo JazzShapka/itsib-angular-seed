@@ -21,11 +21,10 @@
     "angular-mocks": "~1.5.1",
     "angular-bootstrap": "~0.14.2",
     "angular-animate": "~1.5.1",
-    "angular-i18n": "~1.5.1"
+    "angular-i18n": "~1.5.1",
+    "bootstrap": "^3.3.6"
   },
-  "devDependencies": {
-
-  },
+  "devDependencies": {},
   "resolutions": {
     "angular": "1.5.1"
   }

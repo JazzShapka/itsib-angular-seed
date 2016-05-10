@@ -1,10 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html ng-app="angularSeed">
 <head>
-    <meta charset="UTF-8">
-    <title>Hello</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{current.title}}</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <base href='/'>
+
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+    <link rel="stylesheet" href="app/app.css">
+
 </head>
 <body>
-    <h1>My seed</h1>
+
+<a href="/">view one</a>
+<a href="/#/view-two">view two</a>
+
+<!-- Вид (сюда загружаются представления) -->
+<div ng-view></div>
+
+
+<!-- Загруженные компоненты -->
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-route/angular-route.js"></script>
+<script src="bower_components/angular-animate/angular-animate.js"></script>
+
+
+<!-- Основной модуль приложения -->
+<script src="app/app.js"></script>
+
+<!-- Контроллеры представлений -->
+<script src="app/views/view_one/view_one.js"></script>
+<script src="app/views/view_two/view_two.js"></script>
+
 </body>
 </html>

@@ -32,6 +32,12 @@
   },
   "scripts": {
     "prestart": "npm install && bower install",
-    "start": "node server"
+    "start": "node server",
+
+    "build-css": "node node_modules/gulp/bin/gulp.js --gulpfile gulpfile.js sass",
+
+    "prewatch-css": "npm run build-css",
+    "watch-css": "node node_modules/gulp/bin/gulp.js --gulpfile gulpfile.js sass:watch"
+
   }
 }

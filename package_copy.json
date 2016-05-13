@@ -43,9 +43,9 @@
     "start": "node server"
 
     //"prebuild-css": "npm install",
-    //"build-css": "node-sass --include-path app/assets/scss app/assets/scss/build.scss app/app.css",
+    //"build-css": "node-sass --include-path app/assets/scss app/assets/scss/style.scss app/app.css",
     //"prewatch-css": "npm run build-css",
-    //"watch-css": "node-sass -w --include-path app/assets/scss app/assets/scss/build.scss app/app.css",
+    //"watch-css": "node-sass -w --include-path app/assets/scss app/assets/scss/style.scss app/app.css",
 
     //"prebuild-js": "npm install",
     //"build-js": "build-js",

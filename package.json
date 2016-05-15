@@ -23,8 +23,12 @@
   ],
   "devDependencies": {
     "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-imagemin": "^3.0.1",
     "gulp-livereload": "^3.8.1",
+    "gulp-ng-annotate": "^2.0.0",
     "gulp-sass": "^2.3.1",
+    "gulp-uglify": "^1.5.3",
     "spa-server": "^0.1.0"
   },
   "dependencies": {
@@ -33,11 +37,10 @@
   "scripts": {
     "prestart": "npm install && bower install",
     "start": "node server",
-
     "build-css": "node node_modules/gulp/bin/gulp.js --gulpfile gulpfile.js sass",
-
     "prewatch-css": "npm run build-css",
-    "watch-css": "node node_modules/gulp/bin/gulp.js --gulpfile gulpfile.js sass:watch"
-
+    "watch-css": "node node_modules/gulp/bin/gulp.js --gulpfile gulpfile.js sass:watch",
+    "build-js": "node node_modules/gulp/bin/gulp.js --gulpfile gulpfile.js build-js",
+    "compression-img": "node node_modules/gulp/bin/gulp.js --gulpfile gulpfile.js compression-img"
   }
 }
